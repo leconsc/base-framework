@@ -1,0 +1,25 @@
+{
+    "name": "leconsc/base-framework",
+    "description": "基于Yii2开发的一个项目基本框架抽取",
+    "keywords": ["yii2", "framework", "basic", "project template"],
+    "homepage": "http://www.manydocs.net/",
+    "type": "project",
+    "license": "BSD-3-Clause",
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": ">=2.0.5",
+        "yiisoft/yii2-bootstrap": "*",
+        "yiisoft/yii2-swiftmailer": "*",
+        "e282486518/yii2-console-migration": "*"
+    },
+    "require-dev": {
+        "yiisoft/yii2-codeception": "*",
+        "yiisoft/yii2-debug": "*",
+        "yiisoft/yii2-gii": "*",
+        "yiisoft/yii2-faker": "*"
+    },
+    "config": {
+        "process-timeout": 1800
+    }
+}

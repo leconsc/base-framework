@@ -1,0 +1,46 @@
+.ui-dialog td.ui-dialog-body span.dialog-icon{
+    display: block;
+    width: 32px;
+    height: 32px;
+    float: left;
+    background-image: url(../images/dialog_icon.png);
+    background-repeat: no-repeat;
+    margin-right: 5px;
+}
+.ui-dialog td.ui-dialog-body div.ui-dialog-content{
+    float: left;
+    line-height: 22px;
+    margin-top: 5px;
+    font-size: 1.1em;
+}
+.ui-dialog td.ui-dialog-body span.dialog-icon-info{
+    background-position: -96px top;
+}
+.ui-dialog td.ui-dialog-body span.dialog-icon-error,
+.ui-dialog td.ui-dialog-body span.dialog-icon-warn{
+    background-position: -64px top;
+}
+.ui-dialog td.ui-dialog-body span.dialog-icon-ok{
+    background-position: left top;
+}
+.ui-dialog td.ui-dialog-body span.dialog-icon-danger{
+    background-position: -256px top;
+}
+.ui-dialog td.ui-dialog-body span.dialog-icon-ask{
+    background-position: -224px top;
+}
+.ui-dialog td.ui-dialog-body span.dialog-icon-remove{
+    background-position: -128px top;
+}
+.ui-dialog td.ui-dialog-body span.dialog-icon-smile{
+    background-position: -160px top;
+}
+.ui-dialog td.ui-dialog-body span.dialog-icon-cry{
+    background-position: -192px top;
+}
+.ui-dialog td.ui-dialog-body ul li{
+    list-style-type: none;
+}
+.ui-dialog td.ui-dialog-body div.ui-dialog-content ul{
+    padding-left:5px
+}

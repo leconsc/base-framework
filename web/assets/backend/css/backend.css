@@ -1,0 +1,395 @@
+a.action:hover
+{
+    text-decoration: none;
+}
+a.action:focus{
+    text-decoration: none;
+}
+div.combo-p{
+    z-index: 999 !important;
+}
+/**=========================== login=================================***/
+.login-form-wrap{
+    margin-top: 80px;
+}
+.profile-img {
+    border-radius: 50%;
+    display: block;
+    height: 96px;
+    margin: 0 auto 10px;
+    width: 96px;
+}
+body{
+    padding-top: 50px;
+}
+/**=========================== menu=================================***/
+ul.dropdown-menu > li > a {
+    padding: 5px 22px;
+    border-left: 2px solid #fff;
+    background-image: none !important;
+}
+
+ul.dropdown-menu > li > a:hover {
+    border-left: 2px solid #222;
+    background-color: #31B0D5;
+    color: #efefef;
+}
+/**=========================== breadcrumbs=================================***/
+#breadcrumbs {
+    margin: 0;
+    font-size: 0.9em;
+    padding: 3px 0;
+}
+.breadcrumbs a {
+    font-size: 0.9em;
+    color: #ff6600;
+}
+
+.breadcrumbs a:hover {
+    text-decoration: underline;
+}
+
+/**=========================== heading=================================***/
+/* header block */
+div.heading {
+    color: #0F7EAD;
+    font-weight: bold;
+    text-align: left;
+    margin: 10px 2px;
+}
+div.heading h2 {
+    height: 48px;
+    margin: 0;
+    padding-left: 52px;
+    font-size: 16px;
+    font-weight: bold;
+    background: url(../images/head/addedit.png) no-repeat left top;
+    text-align: left;
+    line-height: 48px;
+}
+
+div.heading h2.config {
+    background-image: url(../images/head/config.png);
+}
+
+div.heading h2.banner {
+    background-image: url(../images/head/icon-48-banner.png);
+}
+
+div.heading h2.edit {
+    background-image: url(../images/head/addedit.png);
+}
+
+div.heading h2.categories {
+    background-image: url(../images/head/categories.png);
+}
+
+div.heading h2.user-group {
+    background-image: url(../images/head/icon-48-groups.png);
+}
+
+div.heading h2.user-group-edit {
+    background-image: url(../images/head/icon-48-groups-add.png);
+}
+
+div.heading h2.user {
+    background-image: url(../images/head/icon-48-user.png);
+}
+
+div.heading h2.user-edit {
+    background-image: url(../images/head/icon-48-user-add.png);
+}
+
+div.heading h2.query {
+    background-image: url(../images/head/query.png);
+}
+
+div.heading h2.schedule {
+    background-image: url(../images/head/schedule.png);
+}
+
+div.heading h2.log {
+    background-image: url(../images/head/log.png);
+    padding-left: 70px;
+}
+
+div.heading h2.content {
+    background-image: url(../images/head/icon-48-article.png);
+}
+
+div.heading h2.content-add {
+    background-image: url(../images/head/icon-48-article-add.png);
+}
+
+div.heading h2.content-edit {
+    background-image: url(../images/head/icon-48-article-edit.png);
+}
+
+div.heading h2.authorize {
+    background-image: url(../images/head/icon-48-config.png);
+}
+
+div.heading h2.security {
+    background-image: url(../images/head/security.png);
+}
+
+div.heading h2.order {
+    background-image: url(../images/head/order.png);
+}
+
+div.heading h2.upload {
+    background-image: url(../images/head/upload.png);
+}
+
+div.heading h2.message {
+    background-image: url(../images/head/icon-messaging.png);
+}
+
+div.heading h2.message-edit {
+    background-image: url(../images/head/icon-48-writemess.png);
+}
+
+div.heading h2.export {
+    background-image: url(../images/head/export.png);
+}
+
+div.heading h2.stats {
+    background-image: url(../images/head/stats.png);
+}
+
+/**=========================== form block=================================***/
+div.form{
+    clear: both;
+    text-align: left;
+    color: #333;
+    width: 960px;
+}
+div.form h5{
+    color: #fff;
+    height: 30px;
+    text-align: left;
+    font-weight: bold;
+    background-color: #6DC3EA;
+    width: auto;
+    line-height: 30px;
+    padding: 0 5px;
+    border-radius: 2px;
+}
+.form-actions {
+    margin-top: 10px;
+}
+.form-group{
+    border-bottom: 1px dotted #ccc;
+    margin: 0 !important;
+}
+div.form input.btn-default{
+    margin-left: 5px;
+}
+.form-select,
+.form-select-small,
+.form-text,
+.form-text-small{
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    color: #555;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 1.42857143;
+    padding: 5px 6px;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    height: 30px;
+}
+.form-select:focus,
+.form-select-small:focus,
+.form-text:focus,
+.form-text-small.focus
+{
+    border-color: #66afe9;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6)
+}
+.form-select-small,
+.form-text-small{
+    font-size: 12px;
+    height: 22px;
+    padding:0 3px;
+}
+/**=======================配置与权限相关CSS========================================*/
+.resource_list {
+    margin: 5px 10px;
+}
+
+.resource_list .resource_name {
+    display: block;
+    width: 200px;
+    font-weight: bold;
+    float: left;
+    color: #555;
+    height: 25px;
+    line-height: 25px;
+    white-space: nowrap;
+}
+
+.resource_list ul.action_list {
+    height: 25px;
+    line-height: 25px;
+}
+
+.resource_list ul.action_list li {
+    float: left;
+    height: 25px;
+    line-height: 25px;
+    margin-right: 15px;
+    list-style-type: none;
+}
+/**=========================== operate icon block=================================***/
+span.icon-button {
+    display: block;
+    width: 22px;
+    height: 22px;
+    margin: 0;
+    float: left;
+    overflow: hidden;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+span.revoke,
+span.remove {
+    background-image: url(../images/delete.png);
+}
+
+span.edit {
+    background-image: url(../images/edit.png);
+}
+
+span.view {
+    background-image: url(../images/view.png);
+}
+
+span.original {
+    background-image: url(../images/history.png);
+}
+
+span.authorize {
+    background-image: url(../images/authrize.png);
+}
+
+span.check {
+    background-image: url(../images/check.png);
+}
+
+span.upload {
+    background-image: url(../images/upload.png);
+}
+
+span.download {
+    background-image: url(../images/download.png);
+}
+
+span.flow {
+    background-image: url(../images/flow.png);
+}
+
+span.next {
+    background-image: url(../images/next.png);
+}
+
+span.confirm {
+    background-image: url(../images/confirm.png);
+}
+
+span.template {
+    background-image: url(../images/template.gif);
+}
+
+span.property {
+    background-image: url(../images/property.gif);
+}
+
+span.device {
+    background-image: url(../images/device.png);
+}
+span.config {
+    background-image: url(../images/config.png);
+}
+span.changestate {
+    background-image: url(../images/mark.png);
+    background-position: 0 1px;
+}
+
+.easyui-fluid input[type="checkbox"], input[type="radio"]{
+    margin: auto;
+}
+.datagrid-body td{
+    padding: 5px 0;
+}
+div.ordering span {
+    display: block;
+    float: left;
+}
+
+div.ordering span.order-text{
+    width: 70px;
+    padding: 0;
+}
+div.ordering span.order-text input{
+    height: 25px;
+    line-height: 25px;
+}
+div.ordering span a {
+    display: block;
+    width: 12px;
+    height: 12px;
+    text-indent: 10000px;
+    margin-left: 5px;
+    margin-top: 7px;
+    overflow: hidden;
+}
+
+div.ordering span.order-up a {
+    background: url(../images/uparrow.png) no-repeat;
+}
+
+div.ordering span.order-down a {
+    background: url(../images/downarrow.png) no-repeat;
+}
+input.ordering{
+    float: left;
+}
+.form-horizontal .control-label{
+    padding-top: 2px !important;
+}
+.label-flag{
+    font-size: 0.9em;
+    font-style: italic;
+    color: #333;
+    padding-top: 8px;
+}
+span.label-flag-red{
+    color:#ff6600;
+}
+span.label-strong{
+    color:#ff0000;
+    font-weight: bold;
+}
+.container-fluid .textbox-text{
+    padding: 5px 6px;
+    font-size: 14px;
+    line-height: 1.42857;
+}
+.datagrid-row-selected a{
+    color: #fff;
+}
+div.required label.control-label:after{
+    content: " * ";
+    color: #ff0000;
+}
+.combo-panel{
+    padding: 5px !important;
+    font-size: 14px;
+}

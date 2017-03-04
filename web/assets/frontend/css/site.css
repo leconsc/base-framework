@@ -1,0 +1,335 @@
+html,
+body {
+    height: 100%;
+}
+
+.wrap {
+    min-height: 100%;
+    height: auto;
+    margin: 0 auto -60px;
+    padding: 0 0 60px;
+}
+
+.wrap > .container {
+    padding: 70px 15px 20px;
+}
+
+.footer {
+    height: 60px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+.error-summary {
+    color: #a94442;
+    background: #fdf7f7;
+    border-left: 3px solid #eed3d7;
+    padding: 10px 20px;
+    margin: 0 0 15px 0;
+}
+
+.search-box {
+    display: inline-block;
+    width: 100%;
+    border-radius: 3px;
+    padding: 4px 55px 4px 15px;
+    position: relative;
+    background: #fff;
+    border: 1px solid #ddd;
+    -webkit-transition: all 200ms ease-in-out;
+    -moz-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
+    margin-top: 30px;
+}
+
+.search-box.hovered, .search-box:hover, .search-box:active {
+    border: 1px solid #aaa;
+}
+
+.search-box input[type=text] {
+    border: none;
+    box-shadow: none;
+    display: inline-block;
+    padding: 0;
+    background: transparent;
+}
+
+.search-box input[type=text]:hover, .search-box input[type=text]:focus, .search-box input[type=text]:active {
+    box-shadow: none;
+}
+
+.search-box .search-btn {
+    position: absolute;
+    right: 2px;
+    top: 2px;
+    color: #aaa;
+    border-radius: 3px;
+    font-size: 21px;
+    padding: 5px 10px 1px;
+    -webkit-transition: all 200ms ease-in-out;
+    -moz-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
+}
+
+.search-box .search-btn:hover {
+    color: #fff;
+    background-color: #8FBE00;
+}
+
+div.heading {
+    color: #0F7EAD;
+    font-weight: bold;
+    text-align: left;
+    margin: 10px 2px;
+}
+
+div.heading h2 {
+    height: 64px;
+    margin: 0;
+    padding-left: 70px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+    line-height: 64px;
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+div.heading h2.note {
+    background-image: url(../images/note.png);
+}
+
+div.heading h2.article {
+    background-image: url(../images/article.png);
+}
+
+div.heading h2.category {
+    background-image: url(../images/category.png);
+}
+
+div.heading h2.user {
+    background-image: url(../images/user.png);
+}
+
+div.heading h2.password {
+    background-image: url(../images/password.png);
+}
+
+div.heading h2.linkman {
+    background-image: url(../images/linkman.png);
+}
+
+/**=================form style=====================*/
+div.form {
+    clear: both;
+    text-align: left;
+    color: #333;
+    width: 960px;
+}
+
+div.form h5 {
+    color: #fff;
+    height: 30px;
+    text-align: left;
+    font-weight: bold;
+    background-color: #c5c5c5;
+    width: auto;
+    line-height: 30px;
+    padding: 0 5px;
+    border-radius: 2px;
+}
+
+.form-actions {
+    margin-top: 10px;
+}
+
+.form-group {
+    border-bottom: 1px dotted #ccc;
+    margin: 0 !important;
+}
+
+div.form input.btn-default {
+    margin-left: 5px;
+}
+
+span.cls-button {
+    display: block;
+    float: left;
+    width: 16px;
+    height: 16px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    text-indent: -1000px;
+    overflow: hidden;
+    margin-top: 10px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+span.cls-add {
+    background-image: url("../images/add.png");
+}
+
+span.cls-remove {
+    background-image: url("../images/delete.png");
+}
+
+div.field-note-encrypt_key label.control-label:after,
+div.required label.control-label:after {
+    content: " * ";
+    color: #ff0000;
+}
+
+.list h5 {
+    color: #fff;
+    height: 30px;
+    text-align: left;
+    font-weight: bold;
+    background-color: #666;
+    border-color: #080808;
+    width: auto;
+    line-height: 30px;
+    padding: 0 5px;
+    border-radius: 2px;
+}
+
+.list .list-items {
+    margin: 0;
+    padding: 0;
+}
+
+.list .list-items .list-item {
+    display: block;
+    line-height: 50px;
+    border-bottom: 1px dotted #ccc;
+    text-decoration: none;
+    padding-left: 25px;
+    position: relative;
+    font-weight: bold;
+    border-radius: 2px;
+    background: url("../images/un-selected.png") no-repeat 5px center;
+    clear: both;
+}
+
+.content-list .list-items .list-item {
+    padding-left: 10px;
+    background-image: none;
+}
+
+.list .list-items .hover {
+    background-color: #efefef;
+}
+
+.list .list-items .active {
+    background-image: url("../images/selected.png");
+}
+
+.list .list-items .list-item .icon-button {
+    float: right;
+    margin-right: 10px;
+    display: none;
+}
+
+.list .list-items .hover .icon-button {
+    display: block;
+}
+
+.list .list-items .list-item a {
+    text-decoration: none;
+}
+
+#key-input-form .form-group {
+    border: 0;
+    height: 45px;
+}
+
+#key-input-form .control-label {
+    padding-top: 0;
+}
+
+.form-group .control-label {
+    padding-top: 0;
+}
+
+.label-flag {
+    font-size: 0.9em;
+    font-style: italic;
+    color: #333;
+    padding-top: 8px;
+    font-weight:normal;
+}
+.linkmen-list .label-flag{
+    padding:0;
+}
+.action-button {
+    margin-top: 5px
+}
+
+.action-button .btn {
+    float: right;
+    margin-left: 10px;
+}
+
+.label-date {
+    font-weight: normal;
+    font-size: 0.9em;
+    color: #666;
+}
+
+.form .control-text {
+    padding-top: 3px;
+}
+
+.table > tbody > tr.primary > td,
+.table > tbody > tr.primary > th,
+.table > tbody > tr > td.primary,
+.table > tbody > tr > th.primary,
+.table > tfoot > tr.primary > td,
+.table > tfoot > tr.primary > th,
+.table > tfoot > tr > td.primary,
+.table > tfoot > tr > th.primary,
+.table > thead > tr.primary > td,
+.table > thead > tr.primary > th,
+.table > thead > tr > td.primary,
+.table > thead > tr > th.primary {
+    background-color: #428bca;
+    border-color: #357ebd;
+    color: #fff;
+}
+.table > tbody > tr.gray > td,
+.table > tbody > tr.gray > th,
+.table > tbody > tr > td.gray,
+.table > tbody > tr > th.gray,
+.table > tfoot > tr.gray > td,
+.table > tfoot > tr.gray > th,
+.table > tfoot > tr > td.gray,
+.table > tfoot > tr > th.gray,
+.table > thead > tr.gray > td,
+.table > thead > tr.gray > th,
+.table > thead > tr > td.gray,
+.table > thead > tr > th.gray {
+    background-color: #666;
+    color: #fff;
+}
+.form-horizontal .checkbox, .form-horizontal .checkbox-inline, .form-horizontal .radio, .form-horizontal .radio-inline {
+    padding-top: 0 !important;
+}
+.form-control{
+    padding-left: 6px !important;;
+    padding-right: 6px !important;
+}
+.linkman-label{
+    float:left;
+    background-color: #efefef;
+    border: 1px solid #ccc;
+    padding:2px 12px;
+    margin-right: 5px;
+}
+#linkman_list{
+    margin-bottom: 5px;
+}
+.ui-timepicker-wrapper{
+    width:150px !important;
+}
